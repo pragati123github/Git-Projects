@@ -13,10 +13,9 @@ public class ArrayListDemo {
 		al.add(40);
 		al.add(50);
 		
-		Iterator<Integer> it = al.iterator();
-		while(it.hasNext())
+		for(int c :al)
 		{
-			System.out.println(it.next());
+			System.out.println(c);
 		}
 
 	}
